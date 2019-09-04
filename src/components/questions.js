@@ -12,20 +12,20 @@ import QuestionPage from "./QuestionPage";
           <table id = "tbl1">
           <tbody>
           <tr id ="row1">
-                <td id ="dd" bgcolor="#FF0000">
+                <td id ="dd" className= "questions" bgcolor="Yellow">
                     <QuestionPage question = {mathQuestions[0]}/>
                 </td>
-                <td bgcolor="#00FF00">
-                  second column
+                <td className= "questions">
+                  <QuestionPage question = {mathQuestions[1]}/>
                  </td>
-                 <td bgcolor="#FF0000">
-                    first column
+                 <td className= "questions" bgcolor="Yellow">
+                    <QuestionPage question = {mathQuestions[2]}/>
                  </td>
-                <td bgcolor="#00FF00">
-                  second column
+                <td className= "questions">
+                  <QuestionPage question = {mathQuestions[3]}/>
                  </td>
-                 <td bgcolor="#FF0000">
-                    first column
+                 <td className= "questions" bgcolor="Yellow">
+                    <QuestionPage question = {mathQuestions[4]}/>
                  </td>
                 
           </tr>
@@ -34,15 +34,15 @@ import QuestionPage from "./QuestionPage";
           <table id ="tbl1">
           <tbody>
            <tr id="row2">
-                <td bgcolor="#FF0000">
-                    first column
+                <td className= "questions">
+                    <QuestionPage question = {mathQuestions[5]}/>
                  </td>
-                <td width = "313" bgcolor="#ffffff">
+                <td width = "610" bgcolor="#ffffff">
                   
                  </td>
                  
-                 <td bgcolor="#FF0000">
-                    first column
+                 <td className= "questions">
+                    <QuestionPage question = {mathQuestions[6]}/>
                  </td>
                 
           </tr>
@@ -51,15 +51,14 @@ import QuestionPage from "./QuestionPage";
           <table id="tbl3">
           <tbody>
           <tr id = "row3">
-                <td bgcolor="#FF0000">
-                    first column
+                <td className= "questions" bgcolor="Yellow">
+                    <QuestionPage question = {mathQuestions[7]}/>
                  </td>
-                <td width = "313" bgcolor="#ffffff">
-                  
-                 </td>
+                <td width = "610" bgcolor="#ffffff">
+                  </td>
                  
-                 <td bgcolor="#FF0000">
-                    first column
+                 <td className= "questions" bgcolor="Yellow">
+                   <QuestionPage question = {mathQuestions[8]}/>
                  </td>
                 
           </tr>
@@ -68,15 +67,15 @@ import QuestionPage from "./QuestionPage";
           <table id ="tbl4">
           <tbody>
          <tr id ="row4">
-                <td bgcolor="#FF0000">
-                    first column
+                <td className= "questions">
+                    <QuestionPage question = {mathQuestions[9]}/>
                  </td>
-                <td width = "313" bgcolor="#ffffff">
+                <td width = "610" bgcolor="#ffffff">
                   
                  </td>
                  
-                 <td bgcolor="#FF0000">
-                    first column
+                 <td className= "questions">
+                    <QuestionPage question = {mathQuestions[1]}/>
                  </td>
                 
           </tr>
@@ -85,20 +84,20 @@ import QuestionPage from "./QuestionPage";
           <table id ="tbl5">
           <tbody>
           <tr id ="row5">
-                <td bgcolor="#FF0000">
-                    first column
+                <td className= "questions" bgcolor="Yellow">
+                    <QuestionPage question = {mathQuestions[1]}/>
                  </td>
-                <td bgcolor="#00FF00">
-                  second column
+                <td className= "questions">
+                    <QuestionPage question = {mathQuestions[1]}/>
                  </td>
-                 <td bgcolor="#FF0000">
-                    first column
+                 <td className= "questions" bgcolor="Yellow">
+                    <QuestionPage question = {mathQuestions[1]}/>
                  </td>
-                <td bgcolor="#00FF00">
-                  second column
+                <td className= "questions">
+                  <QuestionPage question = {mathQuestions[1]}/>
                  </td>
-                 <td bgcolor="#FF0000">
-                    first column
+                 <td  className= "questions" bgcolor="Yellow">
+                    <QuestionPage question = {mathQuestions[1]}/>
                  </td>
                 
           </tr>
