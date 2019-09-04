@@ -1,21 +1,20 @@
 import React from 'react';
+import QuestionPage from "./QuestionPage";
  
 
     const Questions = ({ questions }) => {
       console.log(questions);
-      console.log(questions[0]);
-      var vc = JSON.parse(questions);
-      console.log(vc[0]); 
-
-
-      return (
+      const mathQuestions = questions.math || [];
+        console.log(mathQuestions);
+        return (
         <div>
           <center><h1>Questions</h1></center>
           <table id = "tbl1">
           <tbody>
           <tr id ="row1">
                 <td id ="dd" bgcolor="#FF0000">
-assasdasdadad                 </td>
+                    <QuestionPage question = {mathQuestions[0]}/>
+                </td>
                 <td bgcolor="#00FF00">
                   second column
                  </td>

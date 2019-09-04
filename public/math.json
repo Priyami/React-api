@@ -1,52 +1,54 @@
-math =[
-  {
-    "id": 1,
-    "question": "5 + 7 = ",
-    "answer": "12"
-  },
-  {
-    "id": 2,
-    "question": "12 - 8 = ",
-    "answer": "4"
-  },
-  {
-    "id": 3,
-    "question": "10 - 8 = ",
-    "answer": "2"
-  },
-  {
-    "id": 4,
-    "question": "14 - 8 = ",
-    "answer": "2"
-  },
-  {
-    "id": 5,
-    "question": "18 - 8 = ",
-    "answer": "2"
-  },
-  {
-    "id": 6,
-    "question": "20 - 8 = ",
-    "answer": "2"
-  },
-  {
-    "id": 7,
-    "question": "20 - 8 = ",
-    "answer": "2"
-  },
-  {
-    "id": 8,
-    "question": "20 - 8 = ",
-    "answer": "2"
-  },
-   {
-    "id": 9,
-    "question": "20 - 8 = ",
-    "answer": "2"
-  },
-  {
-    "id": 10,
-    "question": "20 - 8 = ",
-    "answer": "2"
-  }
-]
+{
+  "math":[
+    {
+      "id":1,
+      "question":"5 + 7 = ",
+      "answer":"12"
+    },
+    {
+      "id":2,
+      "question":"12 - 8 = ",
+      "answer":"4"
+    },
+    {
+      "id":3,
+      "question":"10 - 8 = ",
+      "answer":"2"
+    },
+    {
+      "id":4,
+      "question":"14 - 8 = ",
+      "answer":"2"
+    },
+    {
+      "id":5,
+      "question":"18 - 8 = ",
+      "answer":"2"
+    },
+    {
+      "id":6,
+      "question":"20 - 8 = ",
+      "answer":"2"
+    },
+    {
+      "id":7,
+      "question":"20 - 8 = ",
+      "answer":"2"
+    },
+    {
+      "id":8,
+      "question":"20 - 8 = ",
+      "answer":"2"
+    },
+    {
+      "id":9,
+      "question":"20 - 8 = ",
+      "answer":"2"
+    },
+    {
+      "id":10,
+      "question":"20 - 8 = ",
+      "answer":"2"
+    }
+  ]
+}
