@@ -2,13 +2,15 @@ import React from 'react';
 import QuestionPage from "./QuestionPage";
  
 
-    const Questions = ({ questions }) => {
+    const Questions = ({ questions , steps }) => {
       console.log(questions);
       const mathQuestions = questions.math || [];
+      
         console.log(mathQuestions);
         return (
         <div>
           <center><h1>Questions</h1></center>
+          <div className = "table">
           <table id = "tbl1">
           <tbody>
           <tr id ="row1">
@@ -25,8 +27,12 @@ import QuestionPage from "./QuestionPage";
                   <QuestionPage question = {mathQuestions[3]}/>
                  </td>
                  <td className= "questions" bgcolor="Yellow">
-                    <QuestionPage question = {mathQuestions[4]}/>
+                    <QuestionPage question = {mathQuestions[5]}/>
                  </td>
+                 <td className= "questions">
+                    <QuestionPage question = {mathQuestions[6]}/>
+                 </td>
+                 
                 
           </tr>
           </tbody>
@@ -35,14 +41,14 @@ import QuestionPage from "./QuestionPage";
           <tbody>
            <tr id="row2">
                 <td className= "questions">
-                    <QuestionPage question = {mathQuestions[5]}/>
+                    <QuestionPage question = {mathQuestions[8]}/>
                  </td>
-                <td width = "610" bgcolor="#ffffff">
+                <td width = "810" bgcolor="#ffffff">
                   
                  </td>
                  
                  <td className= "questions">
-                    <QuestionPage question = {mathQuestions[6]}/>
+                    <QuestionPage question = {mathQuestions[9]}/>
                  </td>
                 
           </tr>
@@ -52,13 +58,13 @@ import QuestionPage from "./QuestionPage";
           <tbody>
           <tr id = "row3">
                 <td className= "questions" bgcolor="Yellow">
-                    <QuestionPage question = {mathQuestions[7]}/>
+                    <QuestionPage question = {mathQuestions[10]}/>
                  </td>
-                <td width = "610" bgcolor="#ffffff">
+                <td width = "810" bgcolor="#ffffff">
                   </td>
                  
                  <td className= "questions" bgcolor="Yellow">
-                   <QuestionPage question = {mathQuestions[8]}/>
+                   <QuestionPage question = {mathQuestions[11]}/>
                  </td>
                 
           </tr>
@@ -68,14 +74,14 @@ import QuestionPage from "./QuestionPage";
           <tbody>
          <tr id ="row4">
                 <td className= "questions">
-                    <QuestionPage question = {mathQuestions[9]}/>
+                    <QuestionPage question = {mathQuestions[12]}/>
                  </td>
-                <td width = "610" bgcolor="#ffffff">
+                <td width = "810" bgcolor="#ffffff">
                   
                  </td>
                  
                  <td className= "questions">
-                    <QuestionPage question = {mathQuestions[1]}/>
+                    <QuestionPage question = {mathQuestions[13]}/>
                  </td>
                 
           </tr>
@@ -85,20 +91,24 @@ import QuestionPage from "./QuestionPage";
           <tbody>
           <tr id ="row5">
                 <td className= "questions" bgcolor="Yellow">
-                    <QuestionPage question = {mathQuestions[1]}/>
+                    <QuestionPage question = {mathQuestions[14]}/>
                  </td>
                 <td className= "questions">
-                    <QuestionPage question = {mathQuestions[1]}/>
+                    <QuestionPage question = {mathQuestions[15]}/>
                  </td>
                  <td className= "questions" bgcolor="Yellow">
-                    <QuestionPage question = {mathQuestions[1]}/>
+                    <QuestionPage question = {mathQuestions[16]}/>
                  </td>
                 <td className= "questions">
-                  <QuestionPage question = {mathQuestions[1]}/>
+                  <QuestionPage question = {mathQuestions[17]}/>
                  </td>
                  <td  className= "questions" bgcolor="Yellow">
-                    <QuestionPage question = {mathQuestions[1]}/>
+                    <QuestionPage question = {mathQuestions[18]}/>
                  </td>
+                 <td className= "questions">
+                    <QuestionPage question = {mathQuestions[19]}/>
+                 </td>
+                 
                 
           </tr>
           </tbody>
@@ -106,7 +116,7 @@ import QuestionPage from "./QuestionPage";
         
         
                     
-              
+         </div>     
           
          
         </div>

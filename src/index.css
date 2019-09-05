@@ -39,11 +39,16 @@ code {
 img {
   border-radius: 5px 5px 0 0;
 }
+.table {
+	margin: 20px;
+	padding: 20px 20px 20px 300px;
+}
 .questions{
   display: inline-block;
   margin:1px;
-  border:1px solid #eee;
-  box-shadow: 0 2px 2px #ccc;
+  
+  box-shadow: 0 2px 2px ;
   width: 200px;
+  height: 200px;
   padding: 20px;
 }

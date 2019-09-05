@@ -13,7 +13,14 @@ class QuestionPage extends React.Component {
 
     render() {
         const question = this.props.question ? this.props.question.question : "loading ...";
-        return <div>{question}</div>
+        console.log(question);
+        const step = this.props.question ? this.props.question.step : "loading ...";
+        
+        return <div> {question}
+                <br />
+                     {step} 
+               </div> 
+            
     }
 
 }

@@ -2,53 +2,123 @@
   "math":[
     {
       "id":1,
-      "question":"5 + 7 = ",
-      "answer":"12"
+      "question":"36  ÷ 6 - 16  ÷ 8",
+      "answer":"4",
+      "step":"STEP BACK"
     },
     {
       "id":2,
-      "question":"12 - 8 = ",
-      "answer":"4"
+      "question":"3  × 20  ÷ 5",
+      "answer":"12",
+      "step":"2 STEPS BACK"
     },
     {
       "id":3,
-      "question":"10 - 8 = ",
-      "answer":"2"
+      "question":"75 /100 = x/ 400",
+      "answer":"300",
+      "step":"2 STEPS BACK"
     },
     {
       "id":4,
-      "question":"14 - 8 = ",
-      "answer":"2"
+      "question":"___ × 10 = 8900",
+      "answer":"890",
+      "step":"3 STEPS BACK"
     },
     {
       "id":5,
-      "question":"18 - 8 = ",
-      "answer":"2"
+      "question":"Compare 2/ 6  3/6",
+      "answer":"2/6 < 3/6",
+      "step":"STAND HERE UNTIL YOU SOLVE"
     },
     {
       "id":6,
-      "question":"20 - 8 = ",
-      "answer":"2"
+      "question":"Compare 1/5  1/2",
+      "answer":"1/5 < 1/2",
+      "step":"STAND HERE UNTIL YOU SOLVE"
     },
     {
       "id":7,
-      "question":"20 - 8 = ",
-      "answer":"2"
+      "question":"18/20 = 90/x",
+      "answer":"100",
+      "step":"2 STEPS BACK"
     },
     {
       "id":8,
-      "question":"20 - 8 = ",
-      "answer":"2"
+      "question":"_____ × 98 = 98000",
+      "answer":"1000",
+      "step": "STAND HERE UNTIL YOU SOLVE"
     },
     {
       "id":9,
-      "question":"20 - 8 = ",
-      "answer":"2"
+      "question":"1000 × __ = 682000",
+      "answer":"682",
+      "step": "3 STEPS BACK"
     },
     {
       "id":10,
-      "question":"20 - 8 = ",
-      "answer":"2"
+      "question":"∠EFH  = 120 deg ∠HFG = 30 deg ∠EFG = ?",
+      "answer":"150 deg",
+      "step": "GO TO START"
+    },
+    {
+      "id":11,
+      "question":"Simplify 15 : 24",
+      "answer":"5/8",
+      "step": "JAIL NO TURN TWICE"
+    },
+    {
+      "id":12,
+      "question":"11 = p + 1",
+      "answer":"10",
+      "step": "2 STEPS BACK"
+    },
+    {
+      "id":13,
+      "question":"8 = z /6",
+      "answer":"48",
+      "step": "GO TO START"
+    },
+    {
+      "id":14,
+      "question":"8 + 2 (7 + 6)",
+      "answer":"34",
+      "step": "1 STEP BACK"
+    },
+    {
+      "id":15,
+      "question":"8  × 2 - 3  × 4",
+      "answer":"4",
+      "step": "5 STEPS BACK"
+    },
+    {
+      "id":16,
+      "question":"6 + (8 + 5)",
+      "answer":"19",
+      "step": "STAND HERE UNTIL YOU SOLVE"
+    },
+    {
+      "id":17,
+      "question":"2  × 15  ÷ 3",
+      "answer":"10",
+      "step": "GO TO START"
+    },
+    {
+      "id":18,
+      "question":"(3 + 5)  × (9 - 9)",
+      "answer":"0",
+      "step": "2 STEPS BACK"
+    },
+    {
+      "id":19,
+      "question":"b – 11 = 11",
+      "answer":"22",
+      "step": "3 STEPS BACK"
+    },
+    {
+      "id":20,
+      "question":"8 × ____ = 5600",
+      "answer":"700",
+      "step": "STAND HERE UNTIL YOU SOLVE"
     }
   ]
 }
