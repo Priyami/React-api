@@ -10,102 +10,93 @@ import QuestionPage from "./QuestionPage";
         return (
         <div>
           <center><h1>Questions</h1></center>
-          <div className = "table">
-          <table id = "tbl1">
+          <div>
+          <table id = "tbl1" >
           <tbody>
           <tr id ="row1">
-                <td id ="dd" className= "questions" bgcolor="Yellow">
+                <td className ="questions" bgcolor="Yellow">
                     <QuestionPage question = {mathQuestions[0]}/>
                 </td>
-                <td className= "questions">
+                <td className ="questions">
                   <QuestionPage question = {mathQuestions[1]}/>
                  </td>
-                 <td className= "questions" bgcolor="Yellow">
+                 <td className ="questions" bgcolor="Yellow">
                     <QuestionPage question = {mathQuestions[2]}/>
                  </td>
-                <td className= "questions">
+                <td className ="questions">
                   <QuestionPage question = {mathQuestions[3]}/>
                  </td>
-                 <td className= "questions" bgcolor="Yellow">
+                 <td className ="questions" bgcolor="Yellow">
                     <QuestionPage question = {mathQuestions[5]}/>
                  </td>
-                 <td className= "questions">
+                 <td className ="questions">
                     <QuestionPage question = {mathQuestions[6]}/>
                  </td>
-                 
-                
+                      
           </tr>
-          </tbody>
-          </table>
-          <table id ="tbl1">
-          <tbody>
-           <tr id="row2">
-                <td className= "questions">
+
+          <tr id="row2">
+                <td className ="questions">
                     <QuestionPage question = {mathQuestions[8]}/>
                  </td>
-                <td width = "810" bgcolor="#ffffff">
-                  
-                 </td>
+                <td className="empty-cell"></td>
+                 <td className="empty-cell"></td>
+                 <td className="empty-cell"></td>
+                 <td className="empty-cell"></td>
                  
-                 <td className= "questions">
+                 <td className ="questions">
                     <QuestionPage question = {mathQuestions[9]}/>
                  </td>
                 
           </tr>
-          </tbody>
-          </table>
-          <table id="tbl3">
-          <tbody>
+
           <tr id = "row3">
-                <td className= "questions" bgcolor="Yellow">
+                <td className ="questions" bgcolor="Yellow">
                     <QuestionPage question = {mathQuestions[10]}/>
                  </td>
-                <td width = "810" bgcolor="#ffffff">
-                  </td>
+                <td className="empty-cell"></td>
+                 <td className="empty-cell"></td>
+                 <td className="empty-cell"></td>
+                 <td className="empty-cell"></td>
+
                  
-                 <td className= "questions" bgcolor="Yellow">
+                 <td className ="questions" bgcolor="Yellow">
                    <QuestionPage question = {mathQuestions[11]}/>
                  </td>
                 
           </tr>
-          </tbody>
-          </table>
-          <table id ="tbl4">
-          <tbody>
-         <tr id ="row4">
-                <td className= "questions">
+
+          <tr id ="row4">
+                <td className ="questions">
                     <QuestionPage question = {mathQuestions[12]}/>
                  </td>
-                <td width = "810" bgcolor="#ffffff">
-                  
-                 </td>
-                 
-                 <td className= "questions">
+                 <td className="empty-cell"></td>
+                 <td className="empty-cell"></td>
+                 <td className="empty-cell"></td>
+                 <td className="empty-cell"></td>
+                 <td className ="questions" >
                     <QuestionPage question = {mathQuestions[13]}/>
                  </td>
                 
           </tr>
-          </tbody>
-          </table>
-          <table id ="tbl5">
-          <tbody>
+
           <tr id ="row5">
-                <td className= "questions" bgcolor="Yellow">
+                <td  className ="questions" bgcolor="Yellow">
                     <QuestionPage question = {mathQuestions[14]}/>
                  </td>
-                <td className= "questions">
+                <td className ="questions">
                     <QuestionPage question = {mathQuestions[15]}/>
                  </td>
-                 <td className= "questions" bgcolor="Yellow">
+                 <td className ="questions" bgcolor="Yellow">
                     <QuestionPage question = {mathQuestions[16]}/>
                  </td>
-                <td className= "questions">
+                <td className ="questions">
                   <QuestionPage question = {mathQuestions[17]}/>
                  </td>
-                 <td  className= "questions" bgcolor="Yellow">
+                 <td  className ="questions" bgcolor="Yellow">
                     <QuestionPage question = {mathQuestions[18]}/>
                  </td>
-                 <td className= "questions">
+                 <td className ="questions">
                     <QuestionPage question = {mathQuestions[19]}/>
                  </td>
                  
@@ -113,6 +104,7 @@ import QuestionPage from "./QuestionPage";
           </tr>
           </tbody>
           </table>
+          
         
         
                     

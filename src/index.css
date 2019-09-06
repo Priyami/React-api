@@ -39,16 +39,19 @@ code {
 img {
   border-radius: 5px 5px 0 0;
 }
-.table {
-	margin: 20px;
-	padding: 20px 20px 20px 300px;
-}
-.questions{
-  display: inline-block;
-  margin:1px;
-  
-  box-shadow: 0 2px 2px ;
+.empty-cell {
+  display: inline-flex;
+  margin:5px;
   width: 200px;
   height: 200px;
-  padding: 20px;
+  padding: 50px;
+  border: none;
+}
+.questions{
+  display: inline-flex;
+  margin:5px;
+  box-shadow: 0 2px 2px 2px;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
 }

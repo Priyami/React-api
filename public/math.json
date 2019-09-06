@@ -112,13 +112,13 @@
       "id":19,
       "question":"b – 11 = 11",
       "answer":"22",
-      "step": "3 STEPS BACK"
+      "step":"3 STEPS BACK"
     },
     {
       "id":20,
       "question":"8 × ____ = 5600",
       "answer":"700",
-      "step": "STAND HERE UNTIL YOU SOLVE"
+      "step":"STAND HERE UNTIL YOU SOLVE"
     }
   ]
 }
