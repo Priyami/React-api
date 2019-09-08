@@ -39,6 +39,24 @@ code {
 img {
   border-radius: 5px 5px 0 0;
 }
+input.button-add{
+ background-color: transparent;
+ background-image: url('/yellow-tick.png'); 
+ background-size: cover; 
+ background-position: center; 
+ display: inline-block;
+ border: none; 
+ padding: 20px; 
+ width: 70px; 
+ border-radius: 900px; 
+ height: 70px; 
+ transition: all 0.5s; 
+ cursor: pointer;}
+ input.button-add:hover{ 
+ 	width: 75px;
+ 	height: 75px;
+ }
+
 .empty-cell {
   display: inline-flex;
   margin:5px;
