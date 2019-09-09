@@ -13,6 +13,7 @@ class QuestionPage extends React.Component {
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+
     }
     handleChange(event) {
     this.setState({value: event.target.value});
@@ -20,8 +21,17 @@ class QuestionPage extends React.Component {
 
     handleSubmit(event) {
     alert('A name was submitted: ' + this.state.value);
+    if(this.state.value == this.props.question.answer){
+        this.state.isCorrect = true;
+        this.state.answered =true;
+        alert("The answer is correct");
+    }
+    else{
+        alert("The answer is wrong");
+    }
     event.preventDefault();
     }
+
 
     render() {
         const question = this.props.question ? this.props.question.question : "loading ...";
@@ -30,10 +40,10 @@ class QuestionPage extends React.Component {
         
         return <div> {question}
                 <br />
-                     {step} 
+                     {/* {step}  */}
 
                  <form onSubmit={this.handleSubmit}>
-                    <label> <input type="text" value={this.state.value} onChange={this.handleChange} /> </label>
+                    <label> <input type="text" value={this.state.value} onChange={this.handleChange} className = "text-add" /> </label>
                     <input type="submit" value="" className = "button-add" />
                 </form>
                </div>
