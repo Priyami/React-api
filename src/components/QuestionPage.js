@@ -10,7 +10,9 @@ class QuestionPage extends React.Component {
             answered: false,
             isCorrect: false,
             value: ''
+
             
+
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
