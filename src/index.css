@@ -45,6 +45,40 @@ input.text-add{
 	position: center;
 	width: 100px;
 }
+input.button-wrong{
+ background-color: transparent;
+ background-image: url('/red-wrong.jpg'); 
+ background-size: cover; 
+ background-position: center; 
+ display: inline-block;
+ border: none; 
+ padding: 20px; 
+ width: 70px; 
+ border-radius: 900px; 
+ height: 70px; 
+ transition: all 0.5s; 
+ cursor: pointer;}
+ input.button-add:hover{ 
+ 	width: 75px;
+ 	height: 75px;
+ }
+input.button-right{
+ background-color: transparent;
+ background-image: url('/green-tick.jpg'); 
+ background-size: cover; 
+ background-position: center; 
+ display: inline-block;
+ border: none; 
+ padding: 20px; 
+ width: 70px; 
+ border-radius: 900px; 
+ height: 70px; 
+ transition: all 0.5s; 
+ cursor: pointer;}
+ input.button-add:hover{ 
+ 	width: 75px;
+ 	height: 75px;
+ }
 input.button-add{
  background-color: transparent;
  background-image: url('/yellow-tick.png'); 
