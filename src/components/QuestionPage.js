@@ -30,10 +30,11 @@ class QuestionPage extends React.Component {
     }
     else{
         alert("The answer is wrong");
-         this.setState({display: this.state.display});
+         this.setState({display: !this.state.display});
     }
     event.preventDefault();
     }
+    
 
 
     render() {
