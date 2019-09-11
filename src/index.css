@@ -113,3 +113,10 @@ input.button-add{
   height: 200px;
   padding: 50px;
 }
+#diceFace {
+  font-size: 200px;
+  padding:70px;
+  color: brown;
+  background-color: gray;
+   
+}

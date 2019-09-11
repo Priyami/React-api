@@ -1,7 +1,6 @@
 import React from 'react';
 import QuestionPage from "./QuestionPage";
- 
-
+import Dice from "./Dice";	
     const Questions = ({ questions , steps }) => {
       console.log(questions);
       const mathQuestions = questions.math || [];
@@ -9,7 +8,7 @@ import QuestionPage from "./QuestionPage";
         console.log(mathQuestions);
         return (
         <div>
-          <center><h1>Questions</h1></center>
+          <center><h1>Questions</h1></center>	
           <div>
           <table id = "tbl1" >
           <tbody>
@@ -40,7 +39,7 @@ import QuestionPage from "./QuestionPage";
                     <QuestionPage question = {mathQuestions[8]}/>
                  </td>
                 <td className="empty-cell"></td>
-                 <td className="empty-cell"></td>
+                 <td className="empty-cell"><Dice/></td>
                  <td className="empty-cell"></td>
                  <td className="empty-cell"></td>
                  
