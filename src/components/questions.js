@@ -39,7 +39,7 @@ import Dice from "./Dice";
                     <QuestionPage question = {mathQuestions[8]}/>
                  </td>
                 <td className="empty-cell"></td>
-                 <td className="empty-cell"><Dice/></td>
+                 <td className="empty-cell"></td>
                  <td className="empty-cell"></td>
                  <td className="empty-cell"></td>
                  
@@ -55,7 +55,7 @@ import Dice from "./Dice";
                  </td>
                 <td className="empty-cell"></td>
                  <td className="empty-cell"></td>
-                 <td className="empty-cell"></td>
+                 <td className="empty-cell"><Dice/></td>
                  <td className="empty-cell"></td>
 
                  

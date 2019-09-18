@@ -1,8 +1,13 @@
 import React, {component} from 'react';
+import styled, {keyframes} from 'styled-components';
+import { bounce } from 'react-animations';
 
-class Dice extends React.Component {
+const Bounce = styled.div`animation: 2s ${keyframes`${bounce}`} infinite`;
+class Dice extends React.Component{
+
   constructor(props) {
     super(props);
+
     this.state = {
       faceValue: 0,
       face: "&#x2680;",
@@ -37,12 +42,15 @@ class Dice extends React.Component {
   }
   
   render() {
+        
+
     return (
+      
       <div>
            
-        <div onClick={this.HandleDiceThrow} id="diceFace" dangerouslySetInnerHTML={{ __html: `${this.state.face}` }}></div>        
-       <span>Dice Value: {this.state.faceValue + 1}</span>  <br/>
-        <span>Roll: {this.state.rollCount}</span> <br/>      
+        <Bounce><div onClick={this.HandleDiceThrow} id="diceFace" dangerouslySetInnerHTML={{ __html: `${this.state.face}` }}></div></Bounce> 
+       {/*<span>Dice Value: {this.state.faceValue + 1}</span>  <br/>
+        <span>Roll: {this.state.rollCount}</span> <br/>   */}   
       </div>
     );
   }
