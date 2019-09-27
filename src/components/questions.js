@@ -1,6 +1,7 @@
 import React from 'react';
 import QuestionPage from "./QuestionPage";
 import Dice from "./Dice";	
+import PlayerOne from "./PlayerOne";
     const Questions = ({ questions , steps }) => {
       console.log(questions);
       const mathQuestions = questions.math || [];
@@ -103,7 +104,7 @@ import Dice from "./Dice";
           </tbody>
           </table>
           
-        
+         <PlayerOne/>
         
                     
          </div>     

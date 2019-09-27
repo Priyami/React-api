@@ -44,7 +44,7 @@ class Dice extends React.Component{
     this.setState({
       bounce: {
            animation: 'x 1s',
-           animationDelay: '1s',
+           animationDelay: '1000ms',
            animationName: Radium.keyframes(bounce, 'bounce')
           
       },
@@ -52,7 +52,7 @@ class Dice extends React.Component{
        
        rollOut: {
          From : {
-            opacity: 100
+            opacity: 1
           
            },
            animationName: Radium.keyframes(rollOut, 'rollOut')
@@ -78,7 +78,7 @@ class Dice extends React.Component{
        rollOut: {
          
            to: {
-            opacity: 100,
+            opacity: 0,
             transform: translateAndRotate(
                 ['100%', 0, 1],
                 [0, 0, 100, 120]
